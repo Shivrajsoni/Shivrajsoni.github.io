@@ -4,6 +4,7 @@ import ProofOfWork from "@/components/proof-of-work"
 import WorkExperience from "@/components/work-experience"
 import BlogPost from "./[slug]/page"
 import BlogSection from "@/components/blog-section"
+import GetInTouch from "@/components/getIntouch"
 
 export default function Home() {
   return (
@@ -15,6 +16,10 @@ export default function Home() {
       <WorkExperience />
 
       <BlogSection />
+
+      <hr className="border-zinc-900 dark:border-zinc-800 border-w-full"/>
+
+      <GetInTouch/>
     </main>
   )
 }
